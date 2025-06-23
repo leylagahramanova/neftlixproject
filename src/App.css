@@ -1,0 +1,64 @@
+
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, pre,
+a, img,  sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, 
+figure, figcaption, footer, header, menu, main, nav, section, summary {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	color: inherit;
+	font-size: 100%;
+	box-sizing: border-box;
+}
+ul, menu { list-style: none; }
+table { border-collapse: collapse; }
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.App {
+  min-height: 100vh; /* Ensures App div covers the viewport height */
+  background-color: black; /* Sets the background color to black */
+  color: white; /* Sets text color to white */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.container {
+  padding: 1rem ;
+}
+.bg-black {
+  background-color: black;
+}
+.p-carousel-item {
+}
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+  width: 112px;
+  height: 10px;
+  background:  #d9d9d9; /* Non-active color */
+  border-radius: 10px;
+  opacity: 1;
+}
+
+/* Active bullet */
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #fff; /* Active color */
+}
+
+
+/* On hover effect */
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Arrow icons */
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: white;
+}
