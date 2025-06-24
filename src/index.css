@@ -1,15 +1,19 @@
 @import "tailwindcss";
 
+@tailwind utilities;
 
-#all-footer{
-    @apply flex justify-between items-start flex-wrap;
+#all-footer {
+  @apply flex justify-between items-start flex-wrap;
 }
-#all-footer{
-    margin: 0 0 0 16px;
+
+#all-footer {
+  margin: 0 0 0 16px;
 }
-.footer a{
-    @apply block text-[#ffffffb3] font-normal text-[14px] font-sans underline
+
+.footer a {
+  @apply block text-[#ffffffb3] font-normal text-[14px] font-sans underline;
 }
-.footer{
-    @apply py-4 px-4 ;
+
+.footer {
+  @apply py-4 px-4;
 }
