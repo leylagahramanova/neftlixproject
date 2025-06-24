@@ -72,6 +72,7 @@ const Cards = () => {
             <Carousel
                 value={cards}
                 numScroll={1}
+                numVisible={7} 
                 orientation="horizontal"
                 responsiveOptions={responsiveOptions}
                 itemTemplate={cardTemplate}

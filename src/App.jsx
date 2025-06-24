@@ -12,9 +12,9 @@ function App() {
       <div className="container" style={{margin:'auto'}}>
       <Navbar />
       </div>
-      <Carousel style={{padding: '0 5rem'}}/>
+ <Carousel className="px-7 py-4"style={{margin:'5rem'}}/>
       <div className="container" style={{margin:'auto'}}> 
-
+     
       
       <Cards />
       <Join />
